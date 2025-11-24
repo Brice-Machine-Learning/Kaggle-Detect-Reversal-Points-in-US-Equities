@@ -24,9 +24,10 @@ DETECT_REVERSAL_POINTS_US_EQUITIES/
 │   │   ├── 00_system_overview.md       # High-level architecture of your project
 │   │   ├── 01_project_structure.md     # This file: detailed project structure
 │   │   ├── 02_folder_explanations.md   # Descriptions of each folder's purpose
-│   │   ├── 03_data_flow.md             # How data moves through your pipeline
-│   │   ├── 04_feature_design.md        # Description of time-series features
-│   │   └── 05_modeling_pipeline.md     # How models are trained & validated
+│   │   ├── 03_notebook_descriptions.md # Descriptions of each notebook's purpose
+│   │   ├── 04_data_flow.md             # How data moves through your pipeline
+│   │   ├── 05_feature_design.md        # Description of time-series features
+│   │   └── 06_modeling_pipeline.md     # How models are trained & validated
 │   │
 │   ├── 02_dataset/
 │   │   └── 01_dataset_description.md   # Dataset details & schema
