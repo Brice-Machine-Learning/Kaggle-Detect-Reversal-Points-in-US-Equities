@@ -29,6 +29,31 @@
 
 ---
 
+## **Phase 1.5 — Baseline Pipeline Sanity Check (Nov 24–25)**
+
+**Duration:** 1 day
+
+**Objectives:**
+Validate the full pipeline end-to-end with the simplest possible model.
+
+**Key Tasks:**
+
+- [x] Create 00_baseline.ipynb
+- [ ] Load raw train/test
+- [ ] Minimal preprocessing (drop non-features, align columns)
+- [ ] Train a trivial model (LogReg, LightGBM defaults, or majority class)
+- [ ] Generate submission_baseline.csv
+- [ ] Submit to Kaggle via CLI to confirm workflow
+- [ ] Document baseline score in README
+
+**Deliverables:**
+
+- `00_baseline.ipynb`
+- `submission_baseline.csv`
+- Verified end-to-end submission pipeline
+
+---
+
 ## **Phase 2 — Data Understanding & Exploration (Nov 25–27)**
 
 **Objectives:**
