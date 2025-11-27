@@ -6,6 +6,7 @@
 ![Category: Time Series](https://img.shields.io/badge/Category-Time%20Series-blue?style=flat-square)
 ![Primary Metric: Macro F1](https://img.shields.io/badge/Primary%20Metric-Macro%20F1-orange?style=flat-square)
 ![Models: LightGBM | CatBoost](https://img.shields.io/badge/Models-LightGBM%20%7C%20CatBoost-brightgreen?style=flat-square)
+![DuckDB](https://img.shields.io/badge/DuckDB-Integrated-ffca28?style=flat-square&logo=duckdb&logoColor=black)
 
 ---
 
