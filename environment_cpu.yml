@@ -1,0 +1,37 @@
+name: kaggle_detect_reversal_us_equities
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+
+  # Core numeric stack
+  - numpy
+  - pandas
+  - scikit-learn
+
+  # Visualization stack
+  - matplotlib
+  - seaborn
+
+  # Modeling libraries (CPU versions)
+  - lightgbm
+  - xgboost
+  - pytorch
+
+  # Notebook environment
+  - jupyterlab
+  - ipykernel
+
+  # Experimentation / optimization
+  - optuna
+
+  # Data exploration & DB
+  - dtale
+  - duckdb
+
+  # Pip hook (left empty intentionally; safe to remove later)
+  - pip
+
+
