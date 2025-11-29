@@ -3,10 +3,13 @@
 >*Kaggle Competition · Time-Series Classification · Portfolio Project*
 
 ![Status: In Progress](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)
+![Leaderboard Rank: 100](https://img.shields.io/badge/Leaderboard%20Rank-100-blue?style=flat-square)
+![Baseline Score: 0.93913](https://img.shields.io/badge/Baseline%20Score-0.93913-brightgreen?style=flat-square)
 ![Category: Time Series](https://img.shields.io/badge/Category-Time%20Series-blue?style=flat-square)
 ![Primary Metric: Macro F1](https://img.shields.io/badge/Primary%20Metric-Macro%20F1-orange?style=flat-square)
 ![Models: LightGBM | CatBoost](https://img.shields.io/badge/Models-LightGBM%20%7C%20CatBoost-brightgreen?style=flat-square)
 ![DuckDB](https://img.shields.io/badge/DuckDB-Integrated-ffca28?style=flat-square&logo=duckdb&logoColor=black)
+
 
 ---
 
@@ -102,11 +105,24 @@ This prevents duplication and ensures the README always stays aligned with the c
 
 ## 🏆 Competition Results  
 
-**Status:** Baseline submission planned before Dec 31  
+**Status:** Baseline submission submitted on Nov 29, 2025  
 
 - **Public Leaderboard Score:** *TBD*  
 - **Baseline Model:** LightGBM (raw + simple features)  
 - **Portfolio Model:** Scheduled for Jan–Feb 2026  
+
+✔ First submission successful — leaderboard placement achieved
+
+| Metric                       | Value                      |
+| ---------------------------- | -------------------------- |
+| **Public Leaderboard Score** | **0.93913 Accuracy**       |
+| **Leaderboard Rank**         | **100** (first submission) |
+| **Baseline Model**           | LightGBM + Truncated SVD   |
+| **Classes**                  | `H`, `L`, `None`           |
+| **Test Rows**                | 1151                       |
+
+- This baseline intentionally prioritizes speed and correctness.
+- Leaderboard score will rise as feature engineering and temporal modeling are introduced.
 
 ---
 
