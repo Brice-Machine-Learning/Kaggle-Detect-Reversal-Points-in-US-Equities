@@ -63,7 +63,7 @@ Validate the full pipeline end-to-end with the simplest possible model.
 
 **Key Tasks:**
 
-- [ ] Load raw training and test datasets.
+- [x] Load raw training and test datasets.
 - [ ] Summarize descriptive statistics and feature types.
 - [ ] Visualize key distributions and relationship patterns.
 - [ ] Document findings with initial plots in `01_eda.ipynb`.
