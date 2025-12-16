@@ -32,8 +32,22 @@ DETECT_REVERSAL_POINTS_US_EQUITIES/
 │   ├── 02_dataset/
 │   │   └── 01_dataset_description.md   # Dataset details & schema
 │   │
-│   ├── 03_helper_README/
-│   │   └── 01_environment_setup.md     # Conda environment, pip installs, ipywidgets notes
+│   ├── 03_notebooks/
+│   │   ├── 01_templates/
+│   │   │   ├── 00_baseline_template.md               
+│   │   │   ├── 01_eda_detailed_template.md  
+│   │   │   ├── 01_eda_template.md  
+│   │   │   ├── 02_feature_engineering_template.md  
+│   │   │   ├── 03_model_training_template.md  
+│   │   │   └── 04_interpretation_template.md  
+│   │   │
+│   │   └── 02_notebook_notes/
+│   │       ├── 00_baseline/    
+│   │       │   ├── 01_wide_dataset_loading_notes.md    
+│   │       │   └── 02_baseline_summary.md    
+│   │       └── 01_eda/
+│   │           ├── 01_duckdb_wide_data_advantages.md  
+│   │           └── 02_duckdb_pandas_workflow.md  
 │   │
 │   ├── 04_final_report/
 │   │   ├── 01_executive_summary.md     # Portfolio-facing summary
@@ -41,10 +55,15 @@ DETECT_REVERSAL_POINTS_US_EQUITIES/
 │   │   ├── 03_interpretability.md      # Feature importance, SHAP, charts
 │   │   └── 04_lessons_learned.md       # Reflections after Jan-Feb deep dive
 │   │
-│   └── 05_references/
-│       ├── 01_kaggle_competition_link.md
-│       ├── 02_time_series_notes.md
-│       └── 03_quant_references.md
+│   ├── 05_references/
+│   │   └── 01_references.md
+│   │
+│   ├── 06_helper_README/
+│   │   └── 00_duckdb_loader_usage.md   
+│   │
+│   └── 07_lessons_learned/ 
+│           └── 00_baseline/    
+│               └── 01_lessons_learned_baseline.md 
 │
 ├── figures/                            # Save all charts & plots here
 │   ├── eda/
